@@ -4486,11 +4486,11 @@ small {
 }
 
 .card .card-title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
 }
 
-.card .card-title.activator {
+.card .card-title.activator, .activator {
   cursor: pointer;
 }
 
@@ -4656,6 +4656,15 @@ small {
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
+}
+
+.card p {
+  font-size: .85em;
+  line-height: 1.5;
+}
+
+.card .card-reveal p {
+  font-size: .9em;
 }
 
 #toast-container {
